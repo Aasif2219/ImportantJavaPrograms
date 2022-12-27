@@ -5,7 +5,7 @@ public class P02_ReverseNumbers {
 
      int num=1234;
      
-     //Method 1 - Normal method
+     //Method 01 - Normal method
     /* int rev=0;
      
      while(num!=0) {
@@ -16,13 +16,13 @@ public class P02_ReverseNumbers {
      }
      System.out.println(rev);  
 
-     //Method 2 - Using StringBuilder
+     //Method 02 - Using StringBuilder
      StringBuilder str= new StringBuilder();
      str.append(num);
      StringBuilder rev1=str.reverse();
      System.out.println(rev1); */
      
-     //Method 3 - Using StringBuffer
+     //Method 03 - Using StringBuffer
      StringBuffer sb= new StringBuffer(String.valueOf(num));
      StringBuffer rev=sb.reverse();
      System.out.println(rev);
