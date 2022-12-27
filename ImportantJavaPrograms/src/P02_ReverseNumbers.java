@@ -1,5 +1,5 @@
 
-public class ReverseNumbers {
+public class P02_ReverseNumbers {
 
 	public static void main(String[] args) {
 
