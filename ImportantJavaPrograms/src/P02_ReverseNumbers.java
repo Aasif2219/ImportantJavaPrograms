@@ -15,17 +15,19 @@ public class P02_ReverseNumbers {
     	 
      }
      System.out.println(rev);  
+     
+    //Method 02 - Using StringBuffer
+     StringBuffer sb= new StringBuffer(String.valueOf(num));
+     StringBuffer rev=sb.reverse();
+     System.out.println(rev); */
 
-     //Method 02 - Using StringBuilder
+     //Method 03 - Using StringBuilder
      StringBuilder str= new StringBuilder();
      str.append(num);
      StringBuilder rev1=str.reverse();
-     System.out.println(rev1); */
+     System.out.println(rev1); 
      
-     //Method 03 - Using StringBuffer
-     StringBuffer sb= new StringBuffer(String.valueOf(num));
-     StringBuffer rev=sb.reverse();
-     System.out.println(rev);
+
      
 	}
 
