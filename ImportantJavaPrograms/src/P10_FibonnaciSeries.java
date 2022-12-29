@@ -15,8 +15,6 @@ public class P10_FibonnaciSeries {
     	n2=sum;
     	System.out.print(" "+sum);
     }
-    
-    
    
 	}
 
