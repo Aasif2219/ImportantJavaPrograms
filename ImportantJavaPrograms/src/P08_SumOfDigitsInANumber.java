@@ -3,7 +3,7 @@ public class P08_SumOfDigitsInANumber {
 
 	public static void main(String[] args) {
 
-     int num=12345;
+     int num=12345;  //1+2+3+4+5=15
      
      int sum=0;
      
